@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://parth0x108.github.io/sitemap.xml
