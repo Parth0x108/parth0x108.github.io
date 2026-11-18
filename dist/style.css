@@ -159,6 +159,12 @@ body{font-family:Helvetica,Arial,sans-serif;line-height:1.6;background:var(--sur
 .bounty-protocol img{display:block;width:56px;height:56px;object-fit:contain;object-position:left center;filter:none}
 /* Show the symbol from Hinkal's original wordmark without altering its paths. */
 .bounty-protocol .bounty-logo-hinkal{width:64px;object-fit:cover;object-position:left}
+
+/* Centrifuge's official brand kit provides separate marks for light and dark surfaces. */
+.bounty-protocol .bounty-logo-on-dark{display:block}
+.bounty-protocol .bounty-logo-on-light{display:none}
+:root[data-theme="light"] .bounty-protocol .bounty-logo-on-dark{display:none}
+:root[data-theme="light"] .bounty-protocol .bounty-logo-on-light{display:block}
 .bounty-protocol h2{margin:28px 0 10px;font-size:24px;font-weight:700;line-height:1.2;letter-spacing:-.035em}
 .bounty-protocol p{margin:0;color:var(--muted);font-size:15px;line-height:1.55}
 @media(max-width:1200px){.bounty-showcase{grid-template-columns:repeat(2,minmax(0,1fr))}}
