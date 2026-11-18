@@ -6,7 +6,7 @@ from urllib.parse import urlsplit,unquote
 import json,re,struct,sys,xml.etree.ElementTree as ET
 root=Path(__file__).resolve().parents[1]/'dist'
 routes={'/':'index.html','/work/':'work/index.html','/bounties/':'bounties/index.html','/writing/':'writing/index.html'}
-domain='https://parth0x108.github.io'
+domain='https://parth0x108.com'
 class Page(HTMLParser):
  def __init__(self):
   super().__init__();self.tags=[];self.ids=[];self.links=[];self.title='';self.in_title=False;self.anchors=0

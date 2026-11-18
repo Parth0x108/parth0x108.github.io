@@ -1,6 +1,6 @@
 # Parth0x108
 
-Personal blockchain security portfolio at [parth0x108.github.io](https://parth0x108.github.io).
+Personal blockchain security portfolio at [parth0x108.com](https://parth0x108.com).
 
 The static website lives in `dist/`. All four pages are served as directory routes. Pushes to `main` are verified and deployed by GitHub Actions.
 
