@@ -219,6 +219,9 @@ body{font-family:Helvetica,Arial,sans-serif;line-height:1.6;background:var(--sur
 .firm-grid strong{font-size:18px;line-height:1.25;font-weight:600;letter-spacing:-.02em}
 .audit-work-heading{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:24px;margin-bottom:28px}
 .audit-work-heading h2{margin:0;font-size:34px;line-height:1.15;letter-spacing:-.04em}
+.audit-heading-title{display:flex;align-items:baseline;flex-wrap:wrap;gap:12px}
+.audit-check-all{white-space:nowrap;color:var(--muted);font-size:14px;font-weight:600;text-decoration:underline;text-underline-offset:5px}
+.audit-check-all:hover{color:var(--text)}
 .audit-profiles{display:flex;flex-wrap:wrap;gap:12px 24px}
 .audit-profiles a{font-size:16px;font-weight:600;text-decoration:underline;text-underline-offset:5px}
 .audit-profiles a:hover{color:var(--muted)}
